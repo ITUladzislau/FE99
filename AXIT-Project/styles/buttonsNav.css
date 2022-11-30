@@ -1,0 +1,144 @@
+.navigation {
+	width: 134px;
+	height: 100px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	background: #E5E5E5;
+	color: #FFFFFF;
+}
+
+.navigation:hover {
+	width: 134px;
+	height: 100px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	background: #EC7979;
+}
+
+.navigation:active {
+	width: 134px;
+	height: 100px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	background: #AB4949;
+}
+
+.button1 {
+	height: 60px;
+	width: 270px;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	border: 2px solid #FFFFFF;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.button1:hover {
+	height: 60px;
+	width: 270px;
+	background: #E5E5E5;
+	border: 2px solid #EC7979;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.button1:active {
+	height: 60px;
+	width: 270px;
+	background: #AB4949;
+	border: 2px solid #AB4949;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.button2 {
+	height: 60px;
+	width: 470px;
+	background: #EC7979;
+	border-radius: 0px 0px 10px 10px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.button2:hover {
+	height: 60px;
+	width: 470px;
+	background: #AB4949;
+	border-radius: 0px 0px 10px 10px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.button2:active {
+	height: 60px;
+	width: 470px;
+	background: #EC7979;
+	border-radius: 0px 0px 10px 10px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.button3 {
+	height: 58px;
+	width: 270px;
+	background: #EC7979;
+	border-width: 0;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.button3:hover {
+	height: 58px;
+	width: 270px;
+	background: #AB4949;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.button3:active {
+	height: 58px;
+	width: 270px;
+	background: #EC7979;
+	box-shadow: inset 0px 0px 10px #AB4949;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+}

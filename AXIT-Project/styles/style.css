@@ -1,0 +1,28 @@
+@import url(./tabs.css);
+@import url(./headers.css);
+@import url(./buttonsNav.css);
+@import url(./icons.css);
+
+@import url(./pricing.css);
+@import url(./awesome.css);
+
+input[type="text"], input[type="text"]:focus{
+	initial-value: Name;
+	width: 270px;
+	height: 38px;
+	color: #E5E5E5;
+	border-width: 0;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	outline: none;
+}
+
+.input-text-sep{
+	height:1px;
+	width: 270;
+	margin-top:1px ;
+	
+	border-top: 1px solid #BDBDBD;
+}
