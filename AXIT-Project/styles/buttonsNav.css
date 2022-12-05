@@ -107,7 +107,7 @@
 	line-height: 20px;
 }
 
-.button3 {
+.button-Download {
 	height: 58px;
 	width: 270px;
 	background: #EC7979;
@@ -120,7 +120,7 @@
 	color: #FFFFFF;
 }
 
-.button3:hover {
+.button-Download:hover {
 	height: 58px;
 	width: 270px;
 	background: #AB4949;
@@ -131,7 +131,7 @@
 	line-height: 25px;
 }
 
-.button3:active {
+.button-Download:active {
 	height: 58px;
 	width: 270px;
 	background: #EC7979;

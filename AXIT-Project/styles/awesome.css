@@ -1,6 +1,6 @@
 .awesome{
 	text-align: center;
-	width: 1170px;
+	max-width: 1170px;
 	padding: 15px;
 	margin: 0 auto;
 	margin-top: 60px;
@@ -30,29 +30,14 @@
 	font-style: normal;
 	color: #86878B;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 16px;
 }
 
-.block_text{
+.block__text{
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 16px;
 }
-.tabs{
-	text-align: center;
-	width: 1170px;
-	padding: 15px;
-	margin: 0 auto;
-}
-/*input[type="radio"]{
-	display: none;
-}*/
-.tab-content{
-	display: none;
-}
-.tab-title:checked ~ .tab-content {
-	display: block; 
- }
