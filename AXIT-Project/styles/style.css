@@ -5,7 +5,8 @@
 
 @import url(./pricing.css);
 @import url(./awesome.css);
-
+@import url(./customers.css);
+/*
 input[type="text"], input[type="text"]:focus{
 	initial-value: Name;
 	width: 270px;
@@ -26,3 +27,13 @@ input[type="text"], input[type="text"]:focus{
 	
 	border-top: 1px solid #BDBDBD;
 }
+
+.test{
+	width: 600px;
+height: 600px;
+	background-repeat: no-repeat;
+	background-position: left, right;
+	background-image: url(../img/forest.jpg), url(../img/hores.jpg);
+	background-size:45%;
+}
+*/

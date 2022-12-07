@@ -1,6 +1,5 @@
 .pricing {
 	margin:0 auto;
-	
 	background-color: #F5F5F5; ;
 }
 .pricing__content{
@@ -41,6 +40,7 @@
 	margin: 80px 0 50px 0  ;
 	width: 370px;
 	text-align: center;
+	
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
@@ -50,8 +50,8 @@
 }
 
 .price-case:hover{
-
-	margin-top: 59;
+	position: relative;
+	bottom:20px;
 	box-shadow: 0px 4px 15px gray;
 
 }
