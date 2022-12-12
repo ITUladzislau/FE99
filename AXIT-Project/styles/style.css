@@ -1,12 +1,16 @@
-@import url(./tabs.css);
 @import url(./headers.css);
 @import url(./buttonsNav.css);
-@import url(./icons.css);
 
+
+@import url(./header.css);
+@import url(./social.css);
+@import url(./tabs.css);
 @import url(./pricing.css);
 @import url(./awesome.css);
 @import url(./customers.css);
-/*
+@import url(./design.css);
+@import url(./footer.css);
+
 input[type="text"], input[type="text"]:focus{
 	initial-value: Name;
 	width: 270px;
@@ -19,7 +23,7 @@ input[type="text"], input[type="text"]:focus{
 	font-size: 14px;
 	outline: none;
 }
-
+/*
 .input-text-sep{
 	height:1px;
 	width: 270;

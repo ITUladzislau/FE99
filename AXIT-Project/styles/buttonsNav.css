@@ -1,18 +1,18 @@
 .navigation {
-	width: 134px;
-	height: 100px;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 19px;
-	background: #E5E5E5;
-	color: #FFFFFF;
+	background: transparent;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content:center;
 }
 
 .navigation:hover {
-	width: 134px;
-	height: 100px;
+	
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
@@ -22,8 +22,7 @@
 }
 
 .navigation:active {
-	width: 134px;
-	height: 100px;
+	
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
@@ -32,11 +31,11 @@
 	background: #AB4949;
 }
 
-.button1 {
+.button-transp {
 	height: 60px;
 	width: 270px;
 	box-sizing: border-box;
-	background: #E5E5E5;
+	background: transparent;
 	border: 2px solid #FFFFFF;
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -46,19 +45,20 @@
 	color: #FFFFFF;
 }
 
-.button1:hover {
+.button-transp:hover {
 	height: 60px;
 	width: 270px;
-	background: #E5E5E5;
+	
 	border: 2px solid #EC7979;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
 	line-height: 20px;
+	color: #EC7979;
 }
 
-.button1:active {
+.button-transp:active {
 	height: 60px;
 	width: 270px;
 	background: #AB4949;
