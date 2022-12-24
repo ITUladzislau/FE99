@@ -11,9 +11,12 @@ h2 {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
+	height: 150px;
 	font-size: 36px;
 	line-height: 42px;
 	align-items: center;
+	text-transform: uppercase;
+	position: relative;
 	}
 
 h3 {
@@ -51,4 +54,14 @@ h6 {
 	font-size: 13px;
 	line-height: 18px;
 	align-items: center;
+}
+
+.header-separator::after{
+	content: ' ' ;
+	height:1px;
+	width: 170px;
+	position: absolute;
+	top: 114px ;
+	left: calc(100%/2 - 85px) ;
+	border-top: 1px solid #EC7979;
 }

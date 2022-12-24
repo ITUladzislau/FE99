@@ -4,20 +4,6 @@
 	margin: 0 auto;
 	padding-top: 40px;
 }
-.customers__header {
-	position: relative;
-	margin-bottom: 145px;
-}
-
-.customers__header::after {
-	content: ' ' ;
-	height:1px;
-	width: 300px;
-	position: absolute;
-	top: 140px ;
-	left: calc(100%/2 - 150px) ;
-	border-top: 1px solid #EC7979;
-}
 
 .customers__text {
 	font-family: 'Raleway';

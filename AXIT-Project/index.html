@@ -6,23 +6,49 @@
 </head>
 
 <body>
-	<div class="header">
+	<div class="header" >
+		<span class="header__logo logo">
+			<img src="./img/AXIT.png" alt="">
+			<img src="./img/AXIT-1.png" alt="">
+		</span>
 		<div class="header__content">
-			<div class="header__logo logo">
-				<img src="./img/AXIT.png" alt="">
-				<img src="./img/AXIT-1.png" alt="">
-			</div>
-			<div class="header__menu">
-				<span class="navigation">features</span>
-				<span class="navigation">About</span>
-				<span class="navigation">Pricing</span>
-				<span class="navigation">Reviews</span>
-				<span class="navigation">Contact</span>
-			</div>
+			<ul class="header__menu">
+				<li class="navigation"><a href="#features">Features</a></li>
+				<li class="navigation"><a href="#about">About</a></li>
+				<li class="navigation"><a href="#pricing">Pricing</a></li>
+				<li class="navigation"><a href="#reviews">Reviews</a></li>
+				<li class="navigation"><a href="#contact">Contact</a></li>
+			</ul>
 		</div>
 		
 	</div>
+	<div class="banner">
+		<div class="banner__container">
+			<div class="banner__blocks">
 
+				<div class="banner__text-block">
+					<div class="banner__logo logo">
+						<img src="./img/AXITt.png" alt="">
+						<img src="./img/AXITt-1.png" alt="">
+					</div>
+					<h1 class="banner__logo-text">MODERN AXURE TEMPLATE<br> FOR BEAUTIFUL<br> PROTOTYPES</h1>
+					<div class="button__transp"></div>
+					<p class="banner__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
+				</div>
+
+				<form class="banner__log-block log-block">
+					<div class="log-block__content">
+						<p class="log-block__header">Try Your <span>FREE</span> Trial Today</p>
+						<input type="text" placeholder="Name" class="log-block__input mianInput"></input>
+						<input type="text" placeholder="Email" class="log-block__input mianInput"></input>
+						<input type="password" placeholder="Password"  class="log-block__input mianInput"></input>
+					</div>
+					<input type="button" value="Get Started" class="banner__buttonLog buttonLog">
+				</form>
+			</div>
+			<input type="button" value="Download" class="banner__button-transp button-transp">
+		</div>
+	</div>
 	<div class="social">
 		<div class="social__content">
 			<div class="social__text-block">
@@ -44,7 +70,7 @@
 		</div>
 	</div>
 	
-	<div class="block-tabs">
+	<div class="block-tabs " id="features">
 
 		<div class="tab block-tabs__tab ">
 			<input class="tab__radio" type="radio" name="group" id="tab1" value="" checked>
@@ -110,9 +136,9 @@
 			<div class="block-tabs__img"> <img src="./img/hores.jpg" alt=""></div>
 		</div>
 	</div>
-	<div class="awesome">
-		<h2 class="awesome__header header">WHY THIS IS AWESOME</h2>
-		<div class="awesome__separator"></div>
+	<div class="awesome" id="about">
+		<h2 class="awesome__header header-separator">WHY THIS IS AWESOME</h2>
+		
 		<p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<div class="block awesome__block awesome__block_num_first ">
 			<img class="block__img" src="./img/ico1.png" alt="">
@@ -139,9 +165,9 @@
 			</p>
 		</div>
 	</div>
-	<div class="pricing">
+	<div class="pricing" id="pricing">
 		<div class="pricing__content">
-			<h2 class="pricing__header header">PRICING OPTIONS</h2>
+			<h2 class="pricing__header header-separator">PRICING OPTIONS</h2>
 			<p class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			<div class="pricing__price-conteiner">
 				<div class="price-case pricing__price-case">
@@ -180,8 +206,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="customers">
-		<h2 class="customers__header header"> WHAT OUR CUSTOMERS ARE SAYING</h2>
+	<div class="customers" id="reviews">
+		<h2 class="customers__header header-separator"> WHAT OUR CUSTOMERS ARE SAYING</h2>
 		<p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<div class="customers__content">
 			<div class="customers__case ">
@@ -271,7 +297,27 @@
 			<input type="button" class="button-transp design__button-transp" value="Download">
 		</div>
 	</div>
-
+	<div class="contact" id="contact">
+		<div class="contact__content">
+			<div class="contact__text-block">
+				<h2 class="contact__header header-separator	">contact us</h2>
+				<p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<form class="contact__input-form">
+				<div class="contact__form-blocks form-blocks">
+					<div class="form-blocks__log-block">
+						<input type="text" placeholder="Name" class="log-block__input mianInput"></input>
+						<input type="text" placeholder="Email" class="log-block__input mianInput"></input>
+						<input type="password" placeholder="Password" class="log-block__input mianInput"></input>
+					</div>
+					<div class="form-blocks__message-block">
+						<textarea placeholder="Message"></textarea>
+					</div>
+				</div>
+				<input type="button" value="Send Message" class="button-Download">
+			</form>
+		</div>
+	</div>
 	<div class="footer">
 		<div class="footer__content">
 			<div class="footer__icon-block">

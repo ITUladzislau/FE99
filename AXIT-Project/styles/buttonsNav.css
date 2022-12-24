@@ -1,4 +1,4 @@
-.navigation {
+.navigation a {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
@@ -9,25 +9,14 @@
 	display: flex;
 	align-items: center;
 	justify-content:center;
+	text-decoration: none;
 }
 
-.navigation:hover {
-	
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 19px;
+.navigation:hover a {
 	background: #EC7979;
 }
 
-.navigation:active {
-	
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 19px;
+.navigation:active a{
 	background: #AB4949;
 }
 
@@ -46,35 +35,23 @@
 }
 
 .button-transp:hover {
-	height: 60px;
-	width: 270px;
-	
 	border: 2px solid #EC7979;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 20px;
 	color: #EC7979;
 }
 
 .button-transp:active {
-	height: 60px;
-	width: 270px;
+
 	background: #AB4949;
 	border: 2px solid #AB4949;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 20px;
 }
 
-.button2 {
+.buttonLog {
+	box-sizing: border-box;
 	height: 60px;
 	width: 470px;
 	background: #EC7979;
 	border-radius: 0px 0px 10px 10px;
+	border: #EC7979;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
@@ -83,28 +60,12 @@
 	color: #FFFFFF;
 }
 
-.button2:hover {
-	height: 60px;
-	width: 470px;
+.buttonLog:hover {
 	background: #AB4949;
-	border-radius: 0px 0px 10px 10px;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 20px;
 }
 
-.button2:active {
-	height: 60px;
-	width: 470px;
+.buttonLog:active {
 	background: #EC7979;
-	border-radius: 0px 0px 10px 10px;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 20px;
 }
 
 .button-Download {
@@ -119,26 +80,27 @@
 	line-height: 25px;
 	color: #FFFFFF;
 }
-
 .button-Download:hover {
-	height: 58px;
-	width: 270px;
+	
 	background: #AB4949;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 25px;
+	
+	
 }
-
 .button-Download:active {
-	height: 58px;
-	width: 270px;
 	background: #EC7979;
 	box-shadow: inset 0px 0px 10px #AB4949;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 25px;
 }
+
+.mianInput, .mianInput:focus{
+		width: 370px;
+		height: 38px;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		border-width: 0 0 1px 0;
+		border-color:#DBDBDB;
+		outline: none;
+		color: #796a6a;
+	}
+	

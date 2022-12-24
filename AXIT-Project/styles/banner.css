@@ -1,0 +1,89 @@
+.banner {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../img/bg.png) no-repeat;
+	background-size:cover;
+	height: 1026px;
+
+}
+.banner__container {
+
+	margin:0 auto;
+	display: block;
+	width: 1170px;
+	padding-top: 280px;
+}
+
+.banner__blocks{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 450px;
+	margin-bottom: 40px;
+}
+
+/*!\/\/\/text page\/\/\/*/
+
+.banner__text-block {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.banner__logo-text {
+	color: white;
+}
+
+.banner__text {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	color: #FFFFFF;
+	
+}
+.button__transp {
+	height:1px;
+	width: 170px;
+	border-top: 1px solid white;
+}
+
+/*!\/\/\/Login page\/\/\/*/
+
+.banner__log-block {
+	display: flex;
+	width:470px;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+.log-block__content{
+	display: flex;
+	border-radius: 10px 10px 0 0;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 70px;
+	width: 100% ;
+	height: calc(100% - 60px);
+	align-items: center;
+	background-color: white;
+}
+
+.log-block__header {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #333333;
+}
+.log-block__header span {
+	color: #EC7979;
+}
+
+

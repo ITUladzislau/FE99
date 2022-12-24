@@ -1,29 +1,30 @@
 div[class="header"] {
 	background-color: #000000;
 	height: 75px;
+	display: flex;
+	align-items: center;
+	
 }
 .header__content{
 	display: flex;
 	margin:0 auto;
-	max-width: 1510px;
+	width: 1170px;
+	max-width:1170px;
 	height: 100%;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
+	padding-right: 130px;
 }
 
-
-.header__logo {
-	margin-left: 115px;
+.header__logo{
+	margin-left:50px;
 }
+
 .header__menu{
 	display: flex;
 	justify-content: space-around;
 	width: 570px;
 }
 
-.header__menu span{
-	height: 75px;
-	width: 113px;
 
-}
 

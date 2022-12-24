@@ -8,19 +8,8 @@
 	max-width: 1170px;
 	text-align:  center;
 }
-.pricing__header{
-	position: relative;
-	margin-bottom: 145px;
-}
-.pricing__header::after {
-	content: ' ' ;
-	height:1px;
-	width: 300px;
-	position: absolute;
-	top: 140px ;
-	left: calc(100%/2 - 150px) ;
-	border-top: 1px solid #EC7979;
-}
+
+
 
 .pricing__price-conteiner{
 	display:flex;

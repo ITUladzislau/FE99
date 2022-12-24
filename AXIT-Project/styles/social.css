@@ -2,12 +2,14 @@
 	background-color: #F8EFEF;
 	height: 140px;
 }
+
 .social__content {
 	display: flex;
-	margin:0 auto;
+	margin: 0 auto;
 	height: 100%;
 	max-width: 1170px;
 }
+
 .social__text-block {
 	width: 470px;
 	display: flex;
@@ -15,21 +17,24 @@
 	justify-content: space-around;
 	height: 100%;
 }
+
 .social__name {
 	font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 33px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
 }
+
 .social__text {
 	font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+
 }
+
 .social__icons-block {
 	height: 100%;
 	width: calc(100% - 470px);
