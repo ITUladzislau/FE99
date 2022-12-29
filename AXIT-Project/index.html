@@ -7,11 +7,13 @@
 
 <body>
 	<div class="header" >
-		<span class="header__logo logo">
-			<img src="./img/AXIT.png" alt="">
-			<img src="./img/AXIT-1.png" alt="">
-		</span>
 		<div class="header__content">
+			<a href="#banner">
+				<span class="header__logo logo">
+					<img src="./img/AXIT.png" alt="">
+					<img src="./img/AXIT-1.png" alt="">
+				</span>
+			</a>
 			<ul class="header__menu">
 				<li class="navigation"><a href="#features">Features</a></li>
 				<li class="navigation"><a href="#about">About</a></li>
@@ -20,9 +22,9 @@
 				<li class="navigation"><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
-		
 	</div>
-	<div class="banner">
+
+	<div class="banner" id="banner">
 		<div class="banner__container">
 			<div class="banner__blocks">
 
@@ -305,12 +307,12 @@
 			</div>
 			<form class="contact__input-form">
 				<div class="contact__form-blocks form-blocks">
-					<div class="form-blocks__log-block">
+					<div class="form-blocks__log-block log-block">
 						<input type="text" placeholder="Name" class="log-block__input mianInput"></input>
 						<input type="text" placeholder="Email" class="log-block__input mianInput"></input>
 						<input type="password" placeholder="Password" class="log-block__input mianInput"></input>
 					</div>
-					<div class="form-blocks__message-block">
+	      		<div class="form-blocks__message-block">
 						<textarea placeholder="Message"></textarea>
 					</div>
 				</div>

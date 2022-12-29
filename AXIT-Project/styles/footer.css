@@ -2,6 +2,7 @@
 	background-color: black;
 	height: 164px;
 }
+
 .footer__content {
 	margin: 0 auto;
 	max-width: 1170px;
@@ -11,18 +12,20 @@
 	justify-content: space-around;
 	align-items: center;
 }
+
 .footer__icon-block {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 540px;
 }
+
 .footer__cop {
 	font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: rgba(255, 255, 255, 0.5);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, 0.5);
 
 }
