@@ -7,7 +7,7 @@
 
 .awesome__block{
 	display: inline-block;
-	width: 300;
+	width: 25%;
 	height: 300;
 	text-align: center;
 	font-family: Roboto;
@@ -29,6 +29,10 @@
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 16px;
+}
+.block__img img{
+	width: 50%;
+	
 }

@@ -55,7 +55,7 @@ li[class="navigation"]:active {
 .buttonLog {
 	box-sizing: border-box;
 	height: 60px;
-	width: 470px;
+	width: 100%;
 	background: #EC7979;
 	border-radius: 0px 0px 10px 10px;
 	border: #EC7979;
@@ -99,7 +99,7 @@ li[class="navigation"]:active {
 }
 
 .mianInput, .mianInput:focus{
-		width: 370px;
+		width: 85%;
 		height: 38px;
 		font-family: 'Open Sans';
 		font-style: normal;

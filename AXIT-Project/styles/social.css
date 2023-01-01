@@ -1,21 +1,24 @@
 .social {
+	width: 100%;
 	background-color: #F8EFEF;
 	height: 140px;
 }
 
 .social__content {
 	display: flex;
+	justify-content: space-between;
 	margin: 0 auto;
 	height: 100%;
 	max-width: 1170px;
+	
 }
 
 .social__text-block {
-	width: 470px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	height: 100%;
+	width: 45%;
 }
 
 .social__name {
@@ -32,14 +35,14 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
-
 }
 
 .social__icons-block {
 	height: 100%;
-	width: calc(100% - 470px);
+ width:55% ;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
+	
+	
 }

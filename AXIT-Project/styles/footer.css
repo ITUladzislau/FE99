@@ -9,15 +9,16 @@
 	display: flex;
 	height: 100%;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
 .footer__icon-block {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	width: 540px;
+	width: 60%;
+	height: 50%;
 }
 
 .footer__cop {
@@ -28,4 +29,8 @@
 	line-height: 21px;
 	color: rgba(255, 255, 255, 0.5);
 
+}
+
+.footer__icon-block img{
+	width:7%;
 }

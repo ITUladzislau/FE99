@@ -15,26 +15,32 @@
 }
 .customers__content {
 	display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 80;
 }
 
 .customers__case {
-	width: 370;
+	width: 30%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
 	position: relative;
+	margin-bottom: 4%;
 }
 
 .customers__comment {
 	display: flex;
-	width: 370px;
-	height: 180px;
+	width: 100%;
+	
 	background: #E2E2E2;
 	border-radius: 10px;
 	align-items: center;
 	text-align: center;
+
 }
 
 .customers__comment p {
+	margin: 10% 5% 10% 5%;
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
@@ -50,31 +56,42 @@
 	border-right: 15px solid transparent;
 	border-top: 30px solid #E2E2E2;
 	position: absolute;
-	top: 180px;
-	left: 100px;
+	top:50%;
+	left:10%;
 }
 
 .customers__user {
-	margin-top: 60px;
 	display: flex;
-	
+	justify-content: flex-start;
+	margin-top: 20%;
 }
 
 .customers__about{
-	margin-left: 20px;
+	
+	margin-left: 4%;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	
 }
-
-.customers__name {
+.customers__pic{
+	height: 100%;
+	width: 70px;
+}
+.customers__pic img{
+	width: 100%;
+	height: 100%;
+}
+.customers__name p {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
-	margin-bottom: 40px;
+
 }
 .customers__name p{
-	margin: auto;
+	margin: 0;
 }
 .customers__position {
 	font-family: 'Raleway';
@@ -82,5 +99,4 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 21px;
 }
