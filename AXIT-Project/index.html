@@ -2,6 +2,7 @@
 
 <head>
 	<title>AXIT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -9,7 +10,6 @@
 	<div class="header" >
 		<div class="header__content">
 			<a href="#banner">
-				<span class="header__logo logo">
 					<img src="./img/AXIT.png" alt="">
 					<img src="./img/AXIT-1.png" alt="">
 				</span>
@@ -21,6 +21,16 @@
 				<li class="navigation"><a href="#reviews">Reviews</a></li>
 				<li class="navigation"><a href="#contact">Contact</a></li>
 			</ul>
+			<div class="header__burger-btn">
+				<input type="checkbox" id="menu" style="display: none;">
+				<label for="menu">
+					<div class="header__burger-btnl">
+						<div class="line-1 line"></div>
+						<div class="line-2 line"></div>
+						<div class="line-3 line"></div>
+					</div>
+				</label>
+			</div>
 		</div>
 	</div>
 
@@ -55,11 +65,11 @@
 	<div class="social">
 		<div class="social__content">
 			<div class="social__text-block">
-				<span class="social__name">Social Media</span>
-				<span class="social__text">
+				<p class="social__name">Social Media</p>
+				<p class="social__text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					Aenean euismod bibendum laoreet.
-				</span>
+				</p>
 			</div>
 			<div class="social__icons-block">
 				<img src="./img/facebook_icon.png" alt="">
@@ -139,9 +149,9 @@
 			<div class="block-tabs__img"> <img src="./img/hores.jpg" alt=""></div>
 		</div>
 	</div>
+
 	<div class="awesome" id="about">
 		<h2 class="awesome__header header-separator">WHY THIS IS AWESOME</h2>
-		
 		<p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<div class="block awesome__block awesome__block_num_first ">
 			<img class="block__img" src="./img/ico1.png" alt="">
@@ -210,94 +220,108 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="customers" id="reviews">
-		<h2 class="customers__header header-separator"> WHAT OUR CUSTOMERS ARE SAYING</h2>
-		<p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		<div class="customers__content">
-			<div class="customers__case ">
-				<div class="customers__comment">
-					<p>
-						Lorem ipsum dolor sit amet,
-						consectetur adipisicing elit. Doloribus
-						accusamus expedita repellat similique
-						odio aspernatur ex, architecto eaque
-						quo suscipit.
-					</p>
-				</div>
-				<div class="customers__user">
-					<div class="customers__pic">
-						<img src="./img/Ellipse 1.png" alt="">
+		<div class="customers__block-text">
+			<h2 class="customers__header header-separator"> WHAT OUR CUSTOMERS ARE SAYING</h2>
+			<p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		
+		<div class="customers__conteiner">
+		<input id="cus_r1" type="radio" name="slide" checked>
+		<input id="cus_r2" type="radio" name="slide">
+		<input id="cus_r3" type="radio" name="slide">
+			<div class="customers__content">
+				<div class="customers__case ">
+					<div class="customers__comment">
+						<p>
+							Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque
+							quo suscipit.
+						</p>
 					</div>
-					<div class="customers__about">
-						<div class="customers__name">
-							<p>Uladsislau Poloneski</p>
+					<div class="customers__user">
+						<div class="customers__pic">
+							<img src="./img/Ellipse 1.png" alt="">
 						</div>
-						<div class="customers__position">
-							<p>Manager</p>
+						<div class="customers__about">
+							<div class="customers__name">
+								<p>Uladsislau Poloneski</p>
+							</div>
+							<div class="customers__position">
+								<p>Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="customers__case">
+					<div class="customers__comment">
+						<p>
+							Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque
+							quo suscipit.
+						</p>
+					</div>
+					<div class="customers__user">
+						<div class="customers__pic">
+							<img src="./img/Ellipse 2.png" alt="">
+						</div>
+						<div class="customers__about">
+							<div class="customers__name">
+								<p>Uladsislau YaPoloneski</p>
+							</div>
+							<div class="customers__position">
+								<p>Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="customers__case ">
+					<div class="customers__comment">
+						<p>
+							Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque
+							quo suscipit.
+						</p>
+					</div>
+					<div class="customers__user">
+						<div class="customers__pic">
+							<img src="./img/Ellipse 3.png" alt="">
+						</div>
+						<div class="customers__about">
+							<div class="customers__name">
+								<p>Uladsislau NePoloneski</p>
+							</div>
+							<div class="customers__position">
+								<p>Manager</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-	
-			<div class="customers__case">
-				<div class="customers__comment">
-					<p>
-						Lorem ipsum dolor sit amet,
-						consectetur adipisicing elit. Doloribus
-						accusamus expedita repellat similique
-						odio aspernatur ex, architecto eaque
-						quo suscipit.
-					</p>
-				</div>
-				<div class="customers__user">
-					<div class="customers__pic">
-						<img src="./img/Ellipse 2.png" alt="">
-					</div>
-					<div class="customers__about">
-						<div class="customers__name">
-							<p>Uladsislau YaPoloneski</p>
-						</div>
-						<div class="customers__position">
-							<p>Manager</p>
-						</div>
-					</div>
-				</div>
-			</div>
-	
-			<div class="customers__case ">
-				<div class="customers__comment">
-					<p>
-						Lorem ipsum dolor sit amet,
-						consectetur adipisicing elit. Doloribus
-						accusamus expedita repellat similique
-						odio aspernatur ex, architecto eaque
-						quo suscipit.
-					</p>
-				</div>
-				<div class="customers__user">
-					<div class="customers__pic">
-						<img src="./img/Ellipse 3.png" alt="">
-					</div>
-					<div class="customers__about">
-						<div class="customers__name">
-							<p>Uladsislau NePoloneski</p>
-						</div>
-						<div class="customers__position">
-							<p>Manager</p>
-						</div>
-					</div>
-				</div>
+			<div class="customers__radio-block">
+				<label for="cus_r1"> <span></span> </label>
+				<label for="cus_r2"> <span></span> </label>
+				<label for="cus_r3"> <span></span> </label>
 			</div>
 		</div>
 	</div>
 
 	<div class="design">
 		<div class="design__content">
-			<h2 class="design__header header">STYLISH AXURE DESIGN</h2>
-			<span class="design__text">
+			<h2 class="design__header header-separator">STYLISH AXURE DESIGN</h2>
+			<p class="design__text">
 				Use the sections you need, remove the ones you don't.
 				Create gorgeous prototypes faster than ever!
-			</span>
+			</p>
 			<input type="button" class="button-transp design__button-transp" value="Download">
 		</div>
 	</div>
@@ -315,7 +339,7 @@
 						<input type="text" placeholder="Email" class="log-block__input mianInput"></input>
 						<input type="password" placeholder="Password" class="log-block__input mianInput"></input>
 					</div>
-	      	<div class="form-blocks__message-block">
+					<div class="form-blocks__message-block">
 						<textarea placeholder="Message"></textarea>
 					</div>
 				</div>

@@ -3,7 +3,8 @@
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../img/design.png) no-repeat;
 	background-size: cover;
-	height: 442px;
+	height: 360px;
+	padding-bottom:50px ;
 
 }
 .design__content {
@@ -12,6 +13,7 @@
 	margin:0 auto;
 	height: 100%;
 	max-width: 1170px;
+	
 	color: white;
 	display: flex;
 	flex-direction: column;
@@ -19,17 +21,11 @@
 }
 
 .design__header::after {
-	content: ' ' ;
-	height:1px;
-	width: 170px;
-	position: absolute;
-	top: 140px ;
-	left: calc(100%/2 - 85px) ;
 	border-top: 1px solid white;
 }
 
 .design__text {
-
+	
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;

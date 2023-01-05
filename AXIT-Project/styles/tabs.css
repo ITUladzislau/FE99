@@ -9,12 +9,16 @@
 	box-sizing: border-box;
 	position: relative;
 	text-align: center;
-	padding-top: 10px;
-	height: 5%;
+	padding-top: 1%;
+	height: 6%;
 	width: 16.6%;
 	margin-bottom: -3px;
-	display: inline-block;
 	margin-top: 40px;
+	display: inline-block;
+}
+
+.tab__label:hover {
+	font-weight: bold;
 }
 
 .block-tabs__tab:has(.tab__radio:checked) {
@@ -25,21 +29,17 @@
 
 
 .tab__label {
-	box-sizing: border-box;
+	
 	font-family: "Open Sans";
-    
-    width: 90%;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: center;
-}
-
-.tab__label:hover {
-	font-size: large;
+	height: 100px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	text-align: center;
 }
 
 .block-tabs__content {
+
 	display: none;
 	padding: 0px;
 	width: 100%;
@@ -57,11 +57,11 @@
 }
 
 .block-tabs__text {
- font-family: 'Raleway';
+  font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 21px;
+	
 	float: left;
 	
 	color: #000000;
@@ -70,7 +70,7 @@
 
 .block-tabs__img {
 	width: 50%;
-	height: 100%;
+	
 }
 .block-tabs__img img{
 	width: 100%;

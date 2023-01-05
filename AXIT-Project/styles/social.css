@@ -35,14 +35,15 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
+	color: #86878B;
 }
-
+.social__icons-block img{
+	width:12%;
+}
 .social__icons-block {
 	height: 100%;
- width:55% ;
+  width:55% ;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
-	
 }
