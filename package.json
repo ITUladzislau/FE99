@@ -1,0 +1,24 @@
+{
+  "name": "fe99",
+  "version": "1.0.0",
+  "source": "AXIT-Project/index.html",
+  "scripts": {
+		"start": "parcel ./AXIT-Project/index.html --no-cache", 
+		"build": "parcel build --public-url ./ ./AXIT-Project/index.html --dist-dir build --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITUladzislau/FE99.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITUladzislau/FE99/issues"
+  },
+  "homepage": "https://github.com/ITUladzislau/FE99#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}
