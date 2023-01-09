@@ -1,0 +1,31 @@
+.download__conteiner {
+	flex-direction: column;
+	height: 452px;
+	align-items: center;
+	justify-content: center;
+	.download__text-block {
+		text-align: center;
+		.download__header {
+			font-weight: 500;
+			font-size: 1.66666em;;
+			line-height: 1.2em;
+			margin-bottom: 1em;
+		}
+		.download__desc {
+			text-transform: uppercase;
+			font-weight: 700;
+			line-height: 1.2em;
+			margin-bottom: 3em;
+		}
+	}
+	@media(min-width:660)and(max-width:1024){
+		&{
+			height:360px ;
+		}
+	}
+	@media(max-width:659.98px){		
+		&{
+				height:316px ;
+		}
+	}
+}

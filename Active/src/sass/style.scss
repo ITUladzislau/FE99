@@ -1,0 +1,98 @@
+//?РАЗНОЕ
+@use "sass:math";
+@import './helpers/reset';
+@import './helpers/font';
+@import './helpers/animations.scss';
+
+//?СТРАНИЦЫ
+@import './page/header';
+@import './page/banner';
+@import './page/features';
+@import	'./page/work';
+@import './page/team';
+@import './page/testimonials';
+@import './page/download';
+@import './page/footer';
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Raleway','Georgia';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2em;
+	font-size: 18px;
+	
+	@media(max-width:1024px) {
+		font-size: 14px;
+	}
+	
+}
+
+[class*="__conteiner"]{
+	max-width: 1200px;
+	margin:0 auto;
+	padding:0 20px 0 20px;
+	display: flex;
+	
+	@media(min-width:321px)and(max-width:1024px) {
+		& {
+			max-width: 1004px;
+		}
+	}
+	@media(max-width:320.98px) {
+		& {
+			max-width: 280px;
+		}
+	}
+}
+
+.nav-btn{
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+	outline: none;
+	
+	&:hover{
+		border-bottom:2px solid #BABBC5;
+	}
+	&:active{
+		color: #E71414;
+		border-bottom:2px solid #E71414;
+	}
+	@media(max-width:1024px) {
+		& {
+			font-size: 12px;
+		}
+	}
+}
+
+.btn{
+	background-color: #FF4343;
+	font-weight: 900;
+	font-size: 1.33333em;
+	line-height: 1.2em;
+	color: white;
+	border-width: 0;
+	&:hover{
+		background-color: #E71414;
+	}
+	&:active{
+		box-shadow: 4px 4px 30px #FF4343;
+	}
+
+	width: 33%;
+			height: 77px;
+			margin-bottom: 40px;
+			@media(min-width:321px) and (max-width:720px ){
+				& {
+					width: 60%;
+				}
+			}
+			@media(max-width:470px){
+				& {
+					width: 80%;
+					height: 54px;
+				}
+			}	
+}

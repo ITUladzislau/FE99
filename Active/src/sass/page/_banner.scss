@@ -1,0 +1,55 @@
+
+.banner {
+	background: 
+		linear-gradient((rgba(37, 43, 73, 0.5)),(rgba(37, 43, 73, 0.5))),
+		url(../img/banner.png) no-repeat;
+	background-size:cover;
+	height: max-content;
+	.banner__conteiner {
+		box-sizing: border-box;
+		flex-direction: column;
+		
+		height: 100%;
+		text-align: center;
+		align-items: center;
+		color: white;
+		.banner__header {
+			font-weight: 900;
+			font-size: 64px;
+			line-height: 1.2em;
+			text-transform: uppercase;
+			margin-bottom: 0.5em;
+			margin-top:calc( 2.03em + 100px);
+			@media(min-width:321px) and (max-width:1050px ){
+				& {
+					font-size: 56px;
+					margin-top:calc( 2.03em + 54px);
+				}
+			}
+			@media(max-width:320.98px){
+				& {
+					font-size: 36px;
+					margin-top:calc( 2.03em + 54px);
+				}
+			}
+			
+		}
+
+		.banner__text {
+			font-size: math.ceil(1.33em);
+			line-height: 1.2em;
+			margin-bottom: 3.5em;
+		
+			@media(max-width:320.98px){
+				& {
+					font-size: 14px;
+				}
+			}
+		}
+
+		
+	}
+	@media(max-width:320px){
+		height: 574px;
+	}
+}
